@@ -25,4 +25,5 @@ This project is based on analyzing window host to identify the **RAT** infection
 - **Goal**: collerate network activity to a specific user identity within the AD
 - **Action**: analyzed LDAP features to find a`givenName` associated with internal traffic.
   - `ldap.AttributeDescription == "givenName"`
--**Discovery**: the compromised account was **Oliver Boomwald** 
+-**Discovery**: the compromised account was **Oliver Boomwald**
+![victim-hostLab-3](UserAccount_infected.jpg)
