@@ -32,3 +32,4 @@ This project is based on analyzing window host to identify the **RAT** infection
 - **Action**: Followed TCP streams of encrypted and unencrypted HTTP traffic to analyze User-Agent Strings and Payload delivery.
 - **Discovery**: *User-Agent*: `NetSupport Manager` confirmed in this context
   - **Infected vector**: Traffic  emerged from `modandcrackedapk.com` immediately preceding the C2 call-out, indicating *"Update Edge"* Script
+![victim-hostLab-4](C2_malware_IOC.jpg)
