@@ -36,3 +36,9 @@ This project is based on analyzing window host to identify the **RAT** infection
  > Oliver open the classicgrand.com which prompt fake browser alert update, if you got virustotal and paste the website it is certainly malicious.
 ### Attack Cycle
 ![victim-hostLab-4](Attack_LifeCyle.png)
+### MITRE ATT&CK Mapping
+|Tactic|Technique ID|Technique Name|
+|------|------------|--------------|
+|**Initial Access**|T1189|Drive-by Compromise (Fake Browser Update)|
+|**Command and Control**|T1071.001|Application Layer Protocol: Web Protocols|
+|**Discovery**|T1087.002|Account Discovery: Domain Account (LDAP)|
