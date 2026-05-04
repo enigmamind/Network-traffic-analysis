@@ -21,3 +21,8 @@ This project is based on analyzing window host to identify the **RAT** infection
 - By review the header, we can confirm the suspicious IP address and the user agent string, *Netsupport Manager*  if the organization does not use this service(Netsuppport), you can suspect to be malicious activity
 - if you got `https://www.virustotal.com/gui/home/url` and paste the ip addressurl fake htm you found more info about this malware
 ![victim-hostLab-2](victim_follow_stream.jpg)
+### Investigation Phase 2 Host & User Identification
+- **Goal**: collerate network activity to a specific user identity within the AD
+- **Action**: analyzed LDAP features to find a`givenName` associated with internal traffic.
+  - `ldap.AttributeDescription == "givenName"`
+-**Discovery**: the compromised account was **Oliver Boomwald** 
