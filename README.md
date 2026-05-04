@@ -16,4 +16,5 @@ This project is based on analyzing window host to identify the **RAT** infection
   - `(http.request or tls.handshake.type eq 1) and !(ssdp)`
 - **Discovery**: identified victim host `10.11.26.23` communicating with suspicious ip `194.180.191.64` via POST requests to `fakeurl.htm`
 ![victim-hostLab](victim_host_ip.jpg)
-
+> The wireshark interface is customized profile from columns to filters options above.
+> The ip address `194.180.191.64` came from the dataset exercise which show the host infected by NetSupport RAT . 
