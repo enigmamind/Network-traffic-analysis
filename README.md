@@ -33,3 +33,4 @@ This project is based on analyzing window host to identify the **RAT** infection
 - **Discovery**: *User-Agent*: `NetSupport Manager` confirmed in this context
   - **Infected vector**: Traffic  emerged from `modandcrackedapk.com` immediately preceding the C2 call-out, indicating *"Update Edge"* Script
 ![victim-hostLab-4](C2_malware_IOC.jpg)
+ > Oliver open the classicgrand.com which prompt fake browser alert update, if you got virustotal and paste the website it is certainly malicious. 
