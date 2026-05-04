@@ -27,3 +27,8 @@ This project is based on analyzing window host to identify the **RAT** infection
   - `ldap.AttributeDescription == "givenName"`
 -**Discovery**: the compromised account was **Oliver Boomwald**
 ![victim-hostLab-3](UserAccount_infected.jpg)
+### Investigation Phase 3 C2 Pattern Analysis &m IOC Extraction
+- **Goal**: Reconstruct the infection chain and extract high-fidelity indicators for blocklisting.
+- **Action**: Followed TCP streams of encrypted and unencrypted HTTP traffic to analyze User-Agent Strings and Payload delivery.
+- **Discovery**: *User-Agent*: `NetSupport Manager` confirmed in this context
+  - **Infected vector**: Traffic  emerged from `modandcrackedapk.com` immediately preceding the C2 call-out, indicating *"Update Edge"* Script
