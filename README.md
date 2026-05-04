@@ -14,4 +14,4 @@ This project is based on analyzing window host to identify the **RAT** infection
 - **Goal**: reduce traffic noise and identified host and primary C2 infrastructure
 - **Action**: applied a custom *Basic web filter* to remove **SSDP** which increase noise
   - `(http.request or tls.handshake.type eq 1) and !(ssdp)`
-- **Discovery**: identified victim host ``
+- **Discovery**: identified victim host `10.11.26.23` communicating with suspicious ip `194.180.191.64` via POST requests to `fakeurl.htm`
